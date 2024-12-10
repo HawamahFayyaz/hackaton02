@@ -5,7 +5,7 @@ import { Search } from "lucide-react";
 const page = () => {
   return (
     <div className="flex flex-col items-center">
-      <h2 className="uppercase text-xl font-semibold mt-8">Get Help...</h2>
+      <h2 className="uppercase text-xl font-semibold mt-8">Get Help</h2>
       <div className="flex px-4 py-3 rounded w-[30%] border-2 border-text-secondary-gray mt-4 justify-between">
         <input
           className="focus-visible:outline-none text-sm w-[64%]"
