@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Essentials = () => {
   return (
@@ -11,7 +12,7 @@ const Essentials = () => {
         <div className="text-[#111111] gap-[40px] grid grid-cols-1 md:grid-cols-3 justify-center items-center">
           {/* Img */}
           <div className="relative">
-            <img
+            <Image
               src="/Essential/IMG01.png"
               alt="Mens"
               width={440}
@@ -24,7 +25,7 @@ const Essentials = () => {
           </div>
 
           <div className="relative">
-            <img
+            <Image
               src="/Essential/IMG02.png"
               alt="Womens"
               width={440}
@@ -37,7 +38,7 @@ const Essentials = () => {
           </div>
 
           <div className="relative">
-            <img
+            <Image
               src="/Essential/IMG03.png"
               alt="Kids"
               width={440}

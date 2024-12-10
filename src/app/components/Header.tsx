@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Heart, Search } from "lucide-react";
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
     <header>
       {/* Top bar */}
       <div className="bg-[#F5F5F5] flex justify-between items-center px-6 py-2 md:text-[11px] sm:text-[9px] text-[8px] font-medium text-gray-500">
-        <img
+        <Image
           src="icon.svg"
           alt="icon"
           width={24}
@@ -43,7 +44,7 @@ const Header = () => {
       <div className="flex justify-between items-center px-6 py-4">
         {/* Left section (Logo) */}
         <div className="flex items-center">
-          <img
+          <Image
             src="nike_logo.png"
             alt="Nike Logo"
             className="md:w-[78px] sm:w-[60px] w-[30px]"
@@ -88,7 +89,7 @@ const Header = () => {
           <div className="flex items-center gap-5">
             <Heart className="text-gray-700 w-4 h-4 cursor-pointer hover:text-black" />
             <Link href="/cart">
-              <img
+              <Image
                 src="icons/shoppingcart.png"
                 alt="cart"
                 className="text-gray-700 w-4 h-4 cursor-pointer hover:text-black"

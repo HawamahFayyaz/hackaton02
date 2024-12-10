@@ -7,7 +7,7 @@ const DontMiss = () => {
     <div>
       <div className="w-full h-auto md:h-auto  flex justify-center items-center flex-col">
         <div className="flex justify-between  items-center w-[90%] md:h-[52px] text-black ">
-          <h1 className="font-bold text-xl">Don't Miss</h1>
+          <h1 className="font-bold text-xl">Don&apos;t Miss</h1>
         </div>
 
         <div className="w-full  flex justify-center items-center flex-row">
@@ -15,7 +15,7 @@ const DontMiss = () => {
             {/* Img */}
 
             <div className="pt-4">
-              <img src="/DontMiss/IMG01.png" alt="dont miss" />
+              <Image src="/DontMiss/IMG01.png" alt="dont miss" />
             </div>
 
             <div className=" text-[#111111] w-[90%] gap-[8px] md:gap-[10px]  h-[270px] md:h-[270px] flex flex-col justify-center items-center ">

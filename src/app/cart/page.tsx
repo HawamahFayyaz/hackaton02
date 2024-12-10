@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 const CartPage = () => {
@@ -21,7 +22,7 @@ const CartPage = () => {
 
             <div className="flex flex-col md:flex-row items-start justify-between border-b border-gray-300 pb-6 mb-6">
               <div className="flex gap-6">
-                <img
+                <Image
                   src="cart01.png"
                   alt="Nike Dri-FIT ADV TechKnit Ultra"
                   className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-md"
@@ -31,7 +32,7 @@ const CartPage = () => {
                     Nike Dri-FIT ADV TechKnit Ultra
                   </h3>
                   <p className="text-sm text-[#757575]">
-                    Men's Short-Sleeve Running Top
+                    Men&apos;s Short-Sleeve Running Top
                   </p>
                   <p className="text-sm text-[#757575]">
                     Ashen Slate/Cobalt Bliss
@@ -50,14 +51,14 @@ const CartPage = () => {
 
             <div className="flex flex-col md:flex-row items-start justify-between border-b border-gray-300 pb-6 mb-6">
               <div className="flex gap-6">
-                <img
+                <Image
                   src="cart02.png"
                   alt="Nike Air Max 97 SE"
                   className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-md"
                 />
                 <div>
                   <h3 className="text-lg font-medium">Nike Air Max 97 SE</h3>
-                  <p className="text-sm text-[#757575]">Men's Shoes</p>
+                  <p className="text-sm text-[#757575]">Men&apos;s Shoes</p>
                   <p className="text-sm text-[#757575]">
                     Flat Pewter/Light Bone/Black/White
                   </p>

@@ -110,7 +110,7 @@ export default function JoinUs() {
 
         <div>
           <p className="text-[#8D8D8D] text-sm text-center text-wrap pb-6">
-            By creating an account, you agree to Nike's{" "}
+            By creating an account, you agree to Nike&apos;s{" "}
             <Link className="underline" href="#">
               Privacy Policy
             </Link>{" "}

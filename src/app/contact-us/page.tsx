@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Search } from "lucide-react";
 
@@ -29,7 +30,7 @@ const page = () => {
               Electron, Maestro
             </li>
             <li>
-              If you enter your PAN information at checkout, you'll be able to
+              If you enter your PAN information at checkout, you&apos;ll be able to
               pay for your order with PayTM or a local credit or debit card.
             </li>
             <li>Apple Pay</li>
@@ -39,7 +40,7 @@ const page = () => {
               Nike Members
             </Link>{" "}
             can store multiple debit or credit cards in their profile for faster
-            checkout. If you're not already a Member,{" "}
+            checkout. If you&apos;re not already a Member,{" "}
             <Link href="#" className="underline font-semibold text-base">
               join us
             </Link>{" "}
@@ -77,7 +78,7 @@ const page = () => {
                 Can I pay for my order with multiple methods?
               </h4>
               <p>
-                No, payment for Nike orders can't be split between multiple
+                No, payment for Nike orders can&apos;t be split between multiple
                 payment methods.
               </p>
             </div>
@@ -92,27 +93,27 @@ const page = () => {
             </div>
             <div className="mb-6">
               <h4 className="text-base font-bold mb-2">
-                Why don't I see Apple Pay as an option?
+                Why don&apos;t I see Apple Pay as an option?
               </h4>
               <p className="text-base">
                 To see Apple Pay as an option in the Nike App or on Nike.com,
-                you'll need to use a compatible Apple device running the latest
+                you&apos;ll need to use a compatible Apple device running the latest
                 OS, be signed in to your iCloud account and have a supported
-                card in your Wallet. Additionally, you'll need to use Safari to
+                card in your Wallet. Additionally, you &apos ll need to use Safari to
                 use Apple Pay on Nike.com.
               </p>
             </div>
             <div className="mb-6">
               <p className="mb-2">Was this answer helpful?</p>
               <div className="flex space-x-2">
-                <img
+                <Image
                   src="icons/thumb_up.png"
                   alt="Thumbs Up"
                   width={30}
                   height={30}
                   className="cursor-pointer"
                 />
-                <img
+                <Image
                   src="icons/thumb_down.png"
                   alt="Thumbs Down"
                   width={30}
@@ -127,7 +128,7 @@ const page = () => {
               <ul className="space-y-2 ml-6">
                 <li>
                   <Link href="#" className="underline font-bold">
-                    WHAT ARE NIKE'S DELIVERY OPTIONS?
+                    WHAT ARE NIKE&apos;S DELIVERY OPTIONS?
                   </Link>
                 </li>
                 <li>
@@ -146,7 +147,7 @@ const page = () => {
             </h2>
             {/* Phone Section */}
             <div className="flex flex-col items-center space-y-2 text-center">
-              <img src="icons/phone.png" alt="Phone" width={64} height={64} />
+              <Image src="icons/phone.png" alt="Phone" width={64} height={64} />
               <p className="font-semibold text-base pt-4 ">000 800 919 0566</p>
               <p className="text-base">
                 Products & Orders: 24 hours a day, 7 days a week
@@ -158,21 +159,21 @@ const page = () => {
 
             {/* Chat Section */}
             <div className="flex flex-col items-center space-y-2 text-center">
-              <img src="icons/msg.png" alt="msg" width={64} height={64} />
+              <Image src="icons/msg.png" alt="msg" width={64} height={64} />
               <p className="text-base font-semibold">24 hours a day</p>
               <p className="text-base">7 days a week</p>
             </div>
 
             {/* Email Section */}
             <div className="flex flex-col items-center space-y-2 text-center">
-              <img src="icons/mail.png" alt="emial" width={64} height={64} />
+              <Image src="icons/mail.png" alt="emial" width={64} height={64} />
               <p className="text-base font-semibold">We’ll reply within</p>
               <p className="text-base">five business days</p>
             </div>
 
             {/* Store Locator Section */}
             <div className="flex flex-col items-center space-y-2 text-center">
-              <img
+              <Image
                 src="icons/location.png"
                 alt="locator"
                 width={64}

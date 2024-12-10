@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const LoginPage = () => {
   return (
     <div className="flex flex-col items-center py-10">
-      <img
+      <Image
         className="pb-5"
         src="nike_logo.png"
         width={40}
@@ -45,7 +46,7 @@ const LoginPage = () => {
           </div>
         </div>
         <p className="text-[#8D8D8D] text-center pb-6">
-          By logging in, you agree to Nike's{" "}
+          By logging in, you agree to Nike&apos;s{" "}
           <Link className="underline" href="#">
             Privacy Policy
           </Link>{" "}

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Package } from "lucide-react";
 
 const checkout = () => {
@@ -9,7 +10,7 @@ const checkout = () => {
           How would you like to get your order?
         </h2>
         <p className="text-[#757575]">
-          Customs regulation for India require a copy of the recipient's KYC.
+          Customs regulation for India require a copy of the recipient&apos;s KYC.
           The address on the KYC needs to match the shipping address. Our
           courier will contact you via SMS/email to obtain a copy of your KYC.
           The KYC will be stored securely and used solely for the purpose of
@@ -99,7 +100,7 @@ const checkout = () => {
           </label>
         </div>
         <h2 className="font-medium text-xl pt-4">
-          What's your contact information?
+          What&apos;s your contact information?
         </h2>
         <div className="my-6">
           <input
@@ -120,7 +121,7 @@ const checkout = () => {
             A carrier might contact you to confirm delivery.
           </span>
         </div>
-        <h2 className="font-medium text-xl pt-4">What's your PAN?</h2>
+        <h2 className="font-medium text-xl pt-4">What&apos;s your PAN?</h2>
         <input
           className="w-full border-[#E5E5E5] mt-4 rounded-md px-4 py-3 border-[2px] placeholder:text-text-secondary-gray"
           type="text"
@@ -195,7 +196,7 @@ const checkout = () => {
           Arrives Mon, 27 Mar - Wed, 12 Apr
         </h2>
         <div>
-          <img
+          <Image
             src="cart01.png"
             alt="Nike Dri-FIT ADV TechKnit Ultra"
             className="mt-4 object-cover rounded-md"

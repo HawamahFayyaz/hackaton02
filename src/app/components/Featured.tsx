@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Featured = () => {
   return (
@@ -14,7 +15,7 @@ const Featured = () => {
           <div className="text-black h-auto gap-[40px] flex flex-col justify-center items-center sm:items-start">
             {/* Img */}
             <div className="pt-4">
-              <img
+              <Image
                 src="/featured/IMG01.png"
                 alt="featured img"
                 className="w-full sm:w-auto"
