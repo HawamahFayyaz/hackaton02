@@ -25,7 +25,7 @@ export const prOductDeatils = [
     id: 4,
     title: "Nike Dri-FIT ADV ",
     description: "Men's Short-Sleeve",
-    image: "/GearUP/IMG01.PNG",
+    image: "/GearUP/IMG01.png",
     price: "₹ 3 895",
   },
 
