@@ -206,7 +206,7 @@ const checkout = () => {
               Nike Dri-FIT ADV TechKnit Ultra
             </h3>
             <p className="text-sm text-gray-600">
-              Men's Short-Sleeve Running Top
+              Men&apos;s Short-Sleeve Running Top
             </p>
             <p className="text-sm text-gray-600">Ashen Slate/Cobalt Bliss</p>
             <div className="flex gap-20 text-sm text-gray-600 mt-2">
@@ -217,7 +217,7 @@ const checkout = () => {
           </div>
         </div>
         <div>
-          <img
+          <Image
             src="cart02.png"
             alt="Nike Dri-FIT ADV TechKnit Ultra"
             className="mt-4 object-cover rounded-md"
@@ -227,7 +227,7 @@ const checkout = () => {
               Nike Dri-FIT ADV TechKnit Ultra
             </h3>
             <p className="text-sm text-gray-600">
-              Men's Short-Sleeve Running Top
+              Men&apos;s Short-Sleeve Running Top
             </p>
             <p className="text-sm text-gray-600">Ashen Slate/Cobalt Bliss</p>
             <div className="flex gap-20 text-sm text-gray-600 mt-2">
